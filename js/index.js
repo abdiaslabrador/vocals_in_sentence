@@ -44,7 +44,7 @@ function update_loop(){
     
     idGetSentence.innerHTML = "<h2>Este es getSentence: " + getSentence(word.value) + "<h2>";
     idSearchVocals.innerHTML = "<h2>Este es searchVocals: [" + searchVocals(word.value) + "]<h2>";
-    idDeleteDup.innerHTML = "<h2>Este es deleteDuplicity dado ['i','i' ,'a', 'a', 'e', 'e']: [" + deleteDuplicity(["i","i" ,"a", "a", "e", "e"]) + "]<h2>";
+    idDeleteDup.innerHTML = "<h2>Este es deleteDuplicity: [" + deleteDuplicity(word.value) + "]<h2>";
     idgetVocals.innerHTML = "<h2>Este es getVocals: '" +getVocals(word.value) + "'<h2>";
 }
 // const word = getSentence("esta es la sentecia")
